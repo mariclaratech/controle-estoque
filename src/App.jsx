@@ -11,7 +11,7 @@ import { auth } from "./firebase/auth";
 import Login from "./pages/Login";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import toast, { Toaster } from "react-hot-toast";
-import { db } from "./firebase";
+import { db } from "./firebase/firebase";
 import {
   collection,
   addDoc,
