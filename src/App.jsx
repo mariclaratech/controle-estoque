@@ -9,10 +9,9 @@ import { useEffect, useState } from "react";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "./firebase/auth";
 import Login from "./pages/Login";
-import { FaBoxOpen, FaTrashAlt, FaPencilAlt } from "react-icons/fa";
-import { FiMoon, FiSun, FiChevronLeft, FiChevronRight } from "react-icons/fi";
+import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import toast, { Toaster } from "react-hot-toast";
-import { db } from "./firebase/firebase";
+import { db } from "./firebase";
 import {
   collection,
   addDoc,
